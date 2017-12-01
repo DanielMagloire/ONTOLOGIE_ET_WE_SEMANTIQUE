@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#dans -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#dans"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#etudie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#etudie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#habite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#habite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#marie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#marie">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#mere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#mere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#pere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#pere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#travaille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#travaille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_ecole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_ecole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_entreprise -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_entreprise">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_pays -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_pays">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_ville -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#nom_ville">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#prenom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#prenom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole"/>
+        <nom_ecole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFI</nom_ecole>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole"/>
+        <nom_ecole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRISA</nom_ecole>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <etudie rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole1"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anjara</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlos</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Personne"/>
+        <etudie rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ecole2"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anjara</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carine</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise"/>
+        <nom_entreprise rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange</nom_entreprise>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise"/>
+        <nom_entreprise rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telma</nom_entreprise>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville2"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ravao</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martine</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1"/>
+        <marie rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme3"/>
+        <mere rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant1"/>
+        <mere rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant2"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARINE</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soneita</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville2"/>
+        <travaille rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise1"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andza</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuvy</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Homme"/>
+        <habite rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1"/>
+        <marie rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Femme3"/>
+        <pere rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant1"/>
+        <pere rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Enfant2"/>
+        <travaille rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Entreprise1"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anjara</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobby</prenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays"/>
+        <nom_ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vietnam</nom_ville>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Pays"/>
+        <nom_ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France</nom_ville>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville"/>
+        <nom_ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ho chi minh</nom_ville>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nobby/ontologies/2017/10/untitled-ontology-11#Ville"/>
+        <nom_ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanoi</nom_ville>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
